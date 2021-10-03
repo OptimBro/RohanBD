@@ -303,3 +303,10 @@ body {
   max-width: 677px !important;
  
 }
+
+
+@media screen and (max-width: 500px)
+.six .hat {
+    width: 67px;
+    left: 68% !important;
+}
