@@ -233,6 +233,14 @@ body {
 }
 
 /* Media Queries */
+
+@media screen and (max-width: 500px)
+.six .hat {
+    width: 67px;
+    left: 68% !important;
+}
+
+
 @media screen and (max-height: 1000px) {
   .six .hat {
     left: 40%;
@@ -305,8 +313,3 @@ body {
 }
 
 
-@media screen and (max-width: 500px)
-.six .hat {
-    width: 67px;
-    left: 68% !important;
-}
